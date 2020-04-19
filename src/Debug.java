@@ -4,7 +4,7 @@ public class Debug
 
 {
 	
-	static int i=0;
+	static int i=0;//
 	
 	public static void print()
 	{
