@@ -3,25 +3,18 @@
 public class Debug 
 
 {
+public static void main(String a[])
+{
 	
-	static int i=0;
 	
-	public static void print()
+	boolean isValid=true;
+	
+	
+	isValid=false;
+	if(!isValid)
 	{
-		i++;
 		
-		System.out.println(i);
+		System.out.println("sting is inValid");
 	}
-	
-	
-	public static void main(String a[])
-	{
-	
-		
-		System.out.println("vino start");
-		
-		for(int m=0;m<5;m++) print();
-		
-		
-	}
+}
 }
